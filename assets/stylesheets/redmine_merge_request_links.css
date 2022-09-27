@@ -3,6 +3,7 @@ div#issue-changesets {
 }
 
 div#issue-merge-requests {
+  background-color: inherit;
   float: right;
   width: 45%;
   margin: 1em 0 2em 1em;

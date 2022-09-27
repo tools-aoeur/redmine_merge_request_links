@@ -1,10 +1,8 @@
-require 'redmine'
-
 Redmine::Plugin.register :redmine_merge_request_links do
   name 'Redmine Merge Request Links'
-  author 'Tim Fischbach'
-  description 'Display links to Gitlab merge requests and GitHub pull requests'
-  version '2.2.0'
+  author 'Tim Fischbach (orig)'
+  description 'Display links to Gitlab merge requests and Gitea/GitHub pull requests'
+  version '2.2.1'
   url 'https://github.com/tf/redmine_merge_request_links'
   author_url 'https://github.com/tf'
 
