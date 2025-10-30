@@ -45,7 +45,6 @@ module RedmineMergeRequestLinks
         end
 
         base.class_eval do
-          unloadable
           alias_method :initialize_available_filters_without_merge_requests, :initialize_available_filters
           alias_method :initialize_available_filters, :initialize_available_filters_with_merge_requests
           alias_method :available_columns_without_merge_requests, :available_columns

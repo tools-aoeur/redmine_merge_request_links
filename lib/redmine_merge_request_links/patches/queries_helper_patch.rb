@@ -16,7 +16,6 @@ module RedmineMergeRequestLinks
         end
 
         base.class_eval do
-          unloadable
           alias_method :column_value_without_merge_requests, :column_value
           alias_method :column_value, :column_value_with_merge_requests
         end
